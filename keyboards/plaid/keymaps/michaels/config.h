@@ -1,4 +1,4 @@
-/* Copyright 2017  Christopher Browne
+/* Copyright 2019 Takuya Urakawa (dm9records.com)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,34 +14,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef CONFIG_USER_H
-#define CONFIG_USER_H
+#pragma once
 
-#ifndef NO_DEBUG
-#define NO_DEBUG
-#endif
-#ifndef NO_PRINT
-#define NO_PRINT
-#endif
+// place overrides here
 
-#include "../../config.h"
-
-#define LEADER_TIMEOUT 300
-
-#ifndef LIGHT_CONFIG_H
-#define BACKLIGHT_BREATHING
-#endif
-
-/* cbbrowne user configuration */
-
-#define randadd 53
-#define randmul 181
-#define randmod 167
-
-/* Filler to make layering a bit clearer *
- * borrowed from basic keymap            */
-
-#define _____   KC_NO
-
-#endif
-
+//TapDance
+#define TAPPING_TERM 200
